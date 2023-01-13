@@ -1,0 +1,126 @@
+@media screen and (max-width: 1172px) {
+  header {
+    justify-content: space-between;
+    padding: 0 30px;
+    margin: 0 6rem;
+  }
+  .menu li a {
+    font-size: 17px;
+  }
+
+  .menu {
+    gap: 15px;
+  }
+  .openCloseMenu button {
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .logo a img {
+    position: relative;
+    z-index: 1111111;
+  }
+  header .menu {
+    flex-direction: column;
+    float: left;
+    width: 725px;
+    max-width: 100%;
+    height: 400px;
+    background-color: var(--color-white);
+    align-items: flex-start;
+    position: absolute;
+    top: 63px;
+    left: 0;
+    z-index: 109999;
+    padding: 30px 50px;
+    display: none;
+  }
+
+  header .menu li {
+    border-bottom: 1px solid gray;
+    width: 100%;
+    line-height: 35px;
+  }
+  .userBtn {
+    padding-left: 0;
+  }
+
+  .contanerHero {
+    z-index: -1;
+  }
+  .openCloseMenu {
+    display: block;
+  }
+  .closeMenu {
+    display: none;
+  }
+
+  .reseaux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding-left: 15px;
+  }
+  .reseaux a {
+    font-size: 20px;
+  }
+
+  .contanerHero {
+    left: 66px;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .contanerHero h1 {
+    font-size: 40px;
+  }
+
+  .contanerHero {
+    width: 571px;
+  }
+  .contanerHero .button img {
+    right: 0;
+    left: 170px;
+  }
+}
+
+@media screen and (max-width: 594px) {
+  .contanerHero {
+    width: 344px;
+    top: 200px;
+  }
+  .contanerHero h1 {
+    font-size: 30px;
+  }
+  header {
+    margin: 0 3rem;
+  }
+  .contanerHero p {
+    width: 371px;
+  }
+
+  .contanerHero .button img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .contanerHero {
+    top: 140px;
+    width: 266px;
+    left: 36px;
+  }
+
+  .contanerHero p {
+    width: 254px;
+  }
+
+  header {
+    margin: 0 1rem;
+  }
+}
