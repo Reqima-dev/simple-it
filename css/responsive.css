@@ -73,13 +73,25 @@
   .contanerHero {
     left: 66px;
   }
-
+  .container_About .left img {
+    height: 200px;
+  }
   .container_About {
     flex-direction: column-reverse;
-    padding: 0 50px;
+    padding: 0 30px;
+  }
+  .container_About .right article {
+    font-size: 17px;
   }
   .container_About .left,
   .container_About .right {
+    width: 100%;
+  }
+  .contactContainer {
+    flex-wrap: wrap;
+  }
+  .contactContainer .left,
+  .contactContainer .right {
     width: 100%;
   }
   .container_About .left img {
@@ -153,15 +165,15 @@
     padding: 30px;
   }
 
-  .left,
-  .right {
+  .contactContainer .left,
+  .contactContainer.right {
     width: 100%;
   }
-  .left form .name {
+  .contactContainer .left form .name {
     flex-direction: column;
     align-items: flex-start;
   }
-  .left form .name input {
+  .contactContainer .left form .name input {
     width: 100%;
   }
 }
