@@ -49,3 +49,10 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
+
+/*Date et copyright*/
+const date = document.querySelector(".date");
+const currentYear = new Date().getFullYear();
+date.textContent = currentYear;
+
+/* fin Date et copyright*/

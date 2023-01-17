@@ -17,6 +17,9 @@
     font-size: 30px;
     cursor: pointer;
   }
+  .container_About .right {
+    padding-right: 39px;
+  }
 }
 
 @media screen and (max-width: 936px) {
@@ -49,9 +52,6 @@
     padding-left: 0;
   }
 
-  .contanerHero {
-    z-index: -1;
-  }
   .openCloseMenu {
     display: block;
   }
@@ -73,6 +73,18 @@
   .contanerHero {
     left: 66px;
   }
+
+  .container_About {
+    flex-direction: column-reverse;
+    padding: 0 50px;
+  }
+  .container_About .left,
+  .container_About .right {
+    width: 100%;
+  }
+  .container_About .left img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 785px) {
@@ -81,7 +93,7 @@
   }
 
   .contanerHero {
-    width: 571px;
+    width: 440px;
   }
   .contanerHero .button img {
     right: 0;
@@ -122,5 +134,34 @@
 
   header {
     margin: 0 1rem;
+  }
+
+  .left,
+  .right {
+    padding: 15px;
+  }
+
+  .container_About .right {
+    padding-right: 0;
+  }
+
+  .offreContentIcon {
+    width: 282px;
+  }
+
+  .contactContainer {
+    padding: 30px;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+  .left form .name {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .left form .name input {
+    width: 100%;
   }
 }
