@@ -56,3 +56,4 @@ const currentYear = new Date().getFullYear();
 date.textContent = currentYear;
 
 /* fin Date et copyright*/
+
